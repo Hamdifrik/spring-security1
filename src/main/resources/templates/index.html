@@ -1,0 +1,47 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en" xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Client List</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Client List</h1>-->
+<!--<table>-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th>Nom</th>-->
+<!--        <th>Adresse</th>-->
+
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr th:each="client : ${client}">-->
+<!--        <td th:text="${client.codeClient}"></td>-->
+<!--        <td th:text="${client.nomClient}"></td>-->
+
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--</table>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="template">
+<link rel="stylesheet" type="text/css"
+      href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css" />
+<head>
+    <meta charset="utf-8">
+    <title>Gestion des Produits</title>
+</head>
+<body>
+<div layout:fragment="Mycontent"></div>
+</body>
+
+
+
+
